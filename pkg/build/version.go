@@ -14,8 +14,8 @@ const (
 )
 
 var (
-	VersionType      = VERSION_TYPE_RELEASE
-	DRAKO_DEBUG_BOOL = "false"
+	VersionType      = VERSION_TYPE_CUSTOM
+	DRAKO_DEBUG_BOOL = "true"
 
 	DRAKO_VERSION_MAJOR = "0"
 	DRAKO_VERSION_MINOR = "0"
@@ -36,6 +36,7 @@ func init() {
 	} else {
 		DRAKO_DEBUG = false
 	}
+
 }
 
 var DRAKO_DEBUG bool

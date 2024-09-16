@@ -1,0 +1,1 @@
+{"LEVEL":"error","TIME":"2024-09-16T02:03:17.099-0300","CALLER":"core/main.go:24","MESSAGE":"Error syncing logger:sync /dev/stdout: invalid argument"}

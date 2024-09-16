@@ -1,7 +1,8 @@
 package main
 
 import (
-	"drako/server/pkg/build"
+	"drako/internal/core"
+	"drako/pkg/build"
 	"fmt"
 )
 
@@ -10,4 +11,7 @@ func main() {
 	fmt.Println("commit:", build.Commit)
 	fmt.Println("datetime:", build.Datetime)
 	fmt.Println("debug:", build.DRAKO_DEBUG)
+
+	appCore := core.NewCore()
+	appCore.Start()
 }
